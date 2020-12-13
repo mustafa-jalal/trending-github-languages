@@ -27,12 +27,12 @@ response example
   
     "Python": {
       "number_of_repos": 24,
-      "repos": [/*list of repos*/]
+      "repos": [...]
       },
 
     "php": {
       "number_of_repos": 8,
-      "repos": [/*list of repos*/]
+      "repos": [...]
       }
 }
 ```
