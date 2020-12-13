@@ -17,7 +17,11 @@ class Response
         $this->code = $code;
     }
 
-    public function toJson(){
+    /**
+     * @return false|string
+     */
+    public function toJSON(): string
+    {
         return json_encode($this);
     }
 }
